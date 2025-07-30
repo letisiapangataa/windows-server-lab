@@ -1,4 +1,4 @@
-# 🖥️ Windows Server Lab Environment
+# Windows Server Lab Environment
 
 A fully virtualized lab designed to simulate enterprise-grade infrastructure with Active Directory, PowerShell automation, RBAC, monitoring, and disaster recovery. Built to demonstrate system engineering and cybersecurity fundamentals for roles in national security, infrastructure, and IT operations.
 
@@ -15,7 +15,7 @@ A fully virtualized lab designed to simulate enterprise-grade infrastructure wit
 
 ---
 
-## 📚 Project Goals
+## Project Goals
 
 - Implement a secure and functional AD domain
 - Automate user and group provisioning with PowerShell
@@ -25,24 +25,24 @@ A fully virtualized lab designed to simulate enterprise-grade infrastructure wit
 
 ---
 
-## 🛠️ Features
+## Features
 
-### ✅ Automated User Provisioning
+### Automated User Provisioning
 - CSV-based user imports
 - Auto-assigned to OUs and security groups
 - Password, logon hours, and expiration policies
 
-### ✅ RBAC with Least Privilege
+### RBAC with Least Privilege
 - Role-based group access
 - GPO restrictions per department (IT, HR, Finance)
 - Delegation of control for helpdesk functions
 
-### ✅ Monitoring & Alerting
+### Monitoring & Alerting
 - Event log tracking (logon failures, lockouts, privilege use)
 - PowerShell scripts for real-time alert emails
 - Scheduled Tasks for audit and recovery snapshots
 
-### ✅ Disaster Recovery Testing
+### Disaster Recovery Testing
 - System state backups of Domain Controller
 - Bare-metal recovery simulation
 - GPO export/import and drift validation
