@@ -1,0 +1,16 @@
+Name,SamAccountName,UserPrincipalName,FirstName,LastName,Department,Title,Manager,OU,Group,Description,Office,Phone,Password
+John Smith,jsmith,jsmith@lab.local,John,Smith,IT,System Administrator,,OU=IT,OU=Staff,DC=lab,DC=local,IT_Admins,Senior System Administrator for lab environment,Room 101,555-0101,TempPass123!
+Jane Doe,jdoe,jdoe@lab.local,Jane,Doe,HR,HR Manager,,OU=HR,OU=Staff,DC=lab,DC=local,HR_Managers,Human Resources Department Manager,Room 201,555-0201,TempPass123!
+Bob Wilson,bwilson,bwilson@lab.local,Bob,Wilson,Finance,Financial Analyst,,OU=Finance,OU=Staff,DC=lab,DC=local,Finance_Users,Senior Financial Analyst,Room 301,555-0301,TempPass123!
+Alice Johnson,ajohnson,ajohnson@lab.local,Alice,Johnson,IT,Helpdesk Technician,jsmith,OU=IT,OU=Staff,DC=lab,DC=local,Helpdesk,Level 2 Helpdesk Support Technician,Room 102,555-0102,TempPass123!
+Mike Brown,mbrown,mbrown@lab.local,Mike,Brown,IT,Network Administrator,jsmith,OU=IT,OU=Staff,DC=lab,DC=local,IT_Operations,Network Infrastructure Administrator,Room 103,555-0103,TempPass123!
+Sarah Davis,sdavis,sdavis@lab.local,Sarah,Davis,HR,HR Specialist,jdoe,OU=HR,OU=Staff,DC=lab,DC=local,HR_Users,Human Resources Specialist,Room 202,555-0202,TempPass123!
+Tom Anderson,tanderson,tanderson@lab.local,Tom,Anderson,Finance,Accountant,bwilson,OU=Finance,OU=Staff,DC=lab,DC=local,Finance_Users,Senior Accountant,Room 302,555-0302,TempPass123!
+Lisa Garcia,lgarcia,lgarcia@lab.local,Lisa,Garcia,IT,Security Analyst,jsmith,OU=IT,OU=Staff,DC=lab,DC=local,IT_Admins,Information Security Analyst,Room 104,555-0104,TempPass123!
+David Miller,dmiller,dmiller@lab.local,David,Miller,HR,Recruiter,jdoe,OU=HR,OU=Staff,DC=lab,DC=local,HR_Users,Senior Technical Recruiter,Room 203,555-0203,TempPass123!
+Emma Wilson,ewilson,ewilson@lab.local,Emma,Wilson,Finance,Finance Manager,bwilson,OU=Finance,OU=Staff,DC=lab,DC=local,Finance_Managers,Finance Department Manager,Room 303,555-0303,TempPass123!
+Chris Taylor,ctaylor,ctaylor@lab.local,Chris,Taylor,IT,System Engineer,jsmith,OU=IT,OU=Staff,DC=lab,DC=local,IT_Operations,Windows System Engineer,Room 105,555-0105,TempPass123!
+Amanda White,awhite,awhite@lab.local,Amanda,White,HR,Training Coordinator,jdoe,OU=HR,OU=Staff,DC=lab,DC=local,HR_Users,Employee Training Coordinator,Room 204,555-0204,TempPass123!
+Test User,testuser,testuser@lab.local,Test,User,IT,Test Account,jsmith,OU=IT,OU=Staff,DC=lab,DC=local,Helpdesk,Test account for system validation,Room 999,555-9999,TestPass123!
+Service Monitor,svc_monitor,svc_monitor@lab.local,Service,Monitor,IT,Service Account,,OU=ServiceAccounts,DC=lab,DC=local,IT_Operations,Monitoring service account,N/A,N/A,MonitorSvc123!
+Service Backup,svc_backup,svc_backup@lab.local,Service,Backup,IT,Service Account,,OU=ServiceAccounts,DC=lab,DC=local,IT_Operations,Backup service account,N/A,N/A,BackupSvc123!
