@@ -1,66 +1,69 @@
-# Windows Server Lab Environment
+# 🖥️ Windows Server Lab Environment
 
-A fully virtualized lab designed to simulate enterprise-grade infrastructure with Active Directory, PowerShell automation, RBAC, monitoring, and disaster recovery. Built to demonstrate system engineering and cybersecurity fundamentals for roles in national security, infrastructure, and IT operations.
-
----
-
-## 🔧 Tech Stack
-
-- **Windows Server 2022** (Domain Controller, File Server)
-- **Active Directory Domain Services (AD DS)**
-- **Group Policy (GPO)**
-- **PowerShell (v5+)**
-- **Event Viewer, Task Scheduler**
-- Optional: BitLocker, WSUS, Windows Admin Center
+A complete Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation. Built as part of a portfolio to align with the System Engineer Level 1 role at GCSB (Te Tira Tiaki).
 
 ---
 
-## Project Goals
+## 📌 Project Overview
 
-- Implement a secure and functional AD domain
-- Automate user and group provisioning with PowerShell
-- Apply RBAC and least privilege access control
-- Monitor critical logs and configure alerting
-- Simulate disaster recovery operations
+This lab environment demonstrates best practices in:
 
----
-
-## Features
-
-### Automated User Provisioning
-- CSV-based user imports
-- Auto-assigned to OUs and security groups
-- Password, logon hours, and expiration policies
-
-### RBAC with Least Privilege
-- Role-based group access
-- GPO restrictions per department (IT, HR, Finance)
-- Delegation of control for helpdesk functions
-
-### Monitoring & Alerting
-- Event log tracking (logon failures, lockouts, privilege use)
-- PowerShell scripts for real-time alert emails
-- Scheduled Tasks for audit and recovery snapshots
-
-### Disaster Recovery Testing
-- System state backups of Domain Controller
-- Bare-metal recovery simulation
-- GPO export/import and drift validation
+- Windows Server 2022 setup and domain configuration
+- Active Directory (AD DS) management
+- Role-Based Access Control (RBAC)
+- Group Policy Object (GPO) automation
+- PowerShell-based scripting
+- Monitoring and alerting integration
+- Disaster recovery simulation
 
 ---
 
-## 📁 File Structure
+## 🛠️ Key Features
 
-```bash
-windows-server-lab/
-├── scripts/
-│   ├── bulk_user_provisioning.ps1
-│   ├── backup_AD_state.ps1
-│   └── alert_failed_logins.ps1
-├── docs/
-│   ├── lab-setup-guide.md
-│   ├── rbac-strategy.md
-│   └── disaster-recovery-plan.md
-├── templates/
-│   └── user_import_template.csv
-└── README.md
+- ✅ **Automated User Provisioning**: PowerShell scripts to bulk-create users and assign them to OUs and security groups.
+- ✅ **RBAC Implementation**: Least-privilege model applied using Active Directory groups and delegated permissions.
+- ✅ **Group Policy Automation**: Scripts to apply security baselines, login restrictions, and software controls.
+- ✅ **Monitoring Setup**: Event log alerting and email notifications using PowerShell and Task Scheduler.
+- ✅ **Disaster Recovery Simulation**: Documented restore procedures for AD services and system state backups.
+
+---
+
+## 🔧 Technologies Used
+
+| Technology          | Purpose                                  |
+|---------------------|------------------------------------------|
+| Windows Server 2022 | Core lab environment                     |
+| Active Directory    | Identity and access control              |
+| PowerShell          | Automation and scripting                 |
+| Group Policy        | Centralized security and config control  |
+| Task Scheduler      | Alerting and monitoring                  |
+
+---
+
+## 📷 Architecture Diagram
+
+![Lab Architecture](architecture/lab-diagram.png)
+
+---
+
+## 📂 Folder Structure
+
+- `/scripts/` – PowerShell automation for provisioning, GPO, and monitoring
+- `/docs/` – Documentation for disaster recovery and monitoring strategy
+- `/architecture/` – Network or system topology diagrams
+
+---
+
+## 🔒 Security Considerations
+
+This lab is designed with security best practices in mind, including:
+- Role-based access
+- Scripted user management to reduce error
+- Logging and alerting for anomaly detection
+- Backup and recovery testing
+
+---
+
+## 📄 License
+
+MIT License
