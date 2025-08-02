@@ -46,7 +46,7 @@ This lab environment demonstrates best practices in:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 - `/scripts/` – PowerShell automation for provisioning, GPO, and monitoring
 - `/docs/` – Documentation for disaster recovery and monitoring strategy
@@ -54,7 +54,7 @@ This lab environment demonstrates best practices in:
 
 ---
 
-## 🔒 Security Considerations
+## Security Considerations
 
 This lab is designed with security best practices in mind, including:
 - Role-based access
