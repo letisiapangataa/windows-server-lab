@@ -1,10 +1,10 @@
-# 🖥️ Windows Server Lab Environment
+# Windows Server Lab Environment
 
-A complete Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation. Built as part of a portfolio to align with the System Engineer Level 1 role at GCSB (Te Tira Tiaki).
+A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation. Built as part of a portfolio to align with the System Engineer Level 1 role at GCSB (Te Tira Tiaki).
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This lab environment demonstrates best practices in:
 
@@ -18,17 +18,17 @@ This lab environment demonstrates best practices in:
 
 ---
 
-## 🛠️ Key Features
+## Key Features
 
-- ✅ **Automated User Provisioning**: PowerShell scripts to bulk-create users and assign them to OUs and security groups.
-- ✅ **RBAC Implementation**: Least-privilege model applied using Active Directory groups and delegated permissions.
-- ✅ **Group Policy Automation**: Scripts to apply security baselines, login restrictions, and software controls.
-- ✅ **Monitoring Setup**: Event log alerting and email notifications using PowerShell and Task Scheduler.
-- ✅ **Disaster Recovery Simulation**: Documented restore procedures for AD services and system state backups.
+- **Automated User Provisioning**: PowerShell scripts to bulk-create users and assign them to OUs and security groups.
+- **RBAC Implementation**: Least-privilege model applied using Active Directory groups and delegated permissions.
+- **Group Policy Automation**: Scripts to apply security baselines, login restrictions, and software controls.
+- **Monitoring Setup**: Event log alerting and email notifications using PowerShell and Task Scheduler.
+- **Disaster Recovery Simulation**: Documented restore procedures for AD services and system state backups.
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 | Technology          | Purpose                                  |
 |---------------------|------------------------------------------|
@@ -40,7 +40,7 @@ This lab environment demonstrates best practices in:
 
 ---
 
-## 📷 Architecture Diagram
+## Architecture Diagram
 
 ![Lab Architecture](architecture/lab-diagram.png)
 
@@ -64,6 +64,6 @@ This lab is designed with security best practices in mind, including:
 
 ---
 
-## 📄 License
+## License
 
 MIT License
