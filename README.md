@@ -1,6 +1,6 @@
 # Windows Server Lab Environment
 
-A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation. Built as part of a portfolio to align with the System Engineer Level 1 role at GCSB (Te Tira Tiaki).
+A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation.
 
 ---
 
