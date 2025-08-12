@@ -1,51 +1,50 @@
-# Architecture Diagram Placeholder
 
-This file is a placeholder for the lab architecture diagram.
+# Windows Server Lab - Network Diagram
 
-To create the actual diagram, you can use tools like:
-
-## Recommended Diagramming Tools:
-- **Microsoft Visio** - Professional network diagrams
-- **Draw.io** (now diagrams.net) - Free online diagramming
-- **Lucidchart** - Cloud-based diagramming
-- **yEd** - Free desktop graph editing software
-
-## Diagram Should Include:
-1. **Network Layout**
-   - Domain Controller (DC01)
-   - Client Workstations
-   - Network segments and VLANs
-   - IP address ranges
-
-2. **Active Directory Structure**
-   - Domain forest layout
-   - Organizational Unit hierarchy
-   - Trust relationships
-   - Site topology
-
-3. **Security Zones**
-   - Management network
-   - User networks
-   - DMZ (if applicable)
-   - Firewall placement
-
-4. **Data Flow**
-   - Authentication flows
-   - Replication traffic
-   - Backup processes
-   - Monitoring connections
-
-## Sample ASCII Diagram:
 ```
-    Internet
-        |
-   [Firewall/Router]
-        |
-   [Core Switch] ---- [Management Network]
-        |                      |
-   [User Switch]         [DC01 - Domain Controller]
-        |                      |
-   [Workstations]        [Monitoring/Backup]
+         ┌─────────────────────────────┐
+         │         Internet            │
+         └─────────────┬───────────────┘
+                  │
+         ┌─────────────▼───────────────┐
+         │      Firewall/Router        │
+         └─────────────┬───────────────┘
+                  │
+         ┌─────────────▼───────────────┐
+         │        Core Switch          │
+         └─────────────┬───────────────┘
+                  │
+   ┌─────────────────────────────┴─────────────────────────────┐
+   │                                                           │
+┌───────▼────────┐                                      ┌───────────▼─────────┐
+│ Management VLAN│                                      │   User VLAN         │
+└───────┬────────┘                                      └───────────┬─────────┘
+   │                                                           │
+┌───────▼─────────────┐                                 ┌────────────▼────────────┐
+│ DC01 (Domain Ctrlr) │                                 │ Workstations (WS01-03)  │
+│ MON01 (Monitoring)  │                                 │ Laptops (optional)      │
+│ BACKUP01 (Backup)   │                                 └─────────────────────────┘
+└───────┬─────────────┘
+   │
+   │
+┌───────▼─────────────┐
+│ FILE01 (File Server)│
+│ APP01 (App Server)  │
+└─────────────────────┘
 ```
 
-Replace this file with your actual network diagram showing the complete lab topology.
+**Legend:**
+- All servers and clients are in the `192.168.1.0/24` subnet.
+- Management VLAN: Domain Controller, Monitoring, Backup, File, and Application servers.
+- User VLAN: Workstations and laptops.
+- Firewall/Router separates internal lab from the Internet.
+
+**Key Relationships:**
+- All authentication and directory services flow through DC01.
+- MON01 monitors all servers and workstations.
+- BACKUP01 handles scheduled backups of critical servers.
+- FILE01 and APP01 provide file and application services to users.
+
+---
+
+*For a graphical version, use tools like diagrams.net, Visio, or Lucidchart.*
