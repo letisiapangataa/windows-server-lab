@@ -2,6 +2,8 @@
 
 A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation.
 
+Please visit the followin blog post to break down the development : https://letisiapangataa.github.io/posts/windows-server-2022-lab/
+
 ---
 
 ## Project Overview
