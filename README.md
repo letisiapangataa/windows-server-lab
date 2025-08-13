@@ -107,6 +107,30 @@ This lab is designed with security best practices in mind, including:
 
 ---
 
+
+## References and Online Resources
+
+The following resources provide authoritative guidance and best practices for Windows Server labs, Active Directory, automation, and security:
+
+- [Microsoft Learn: Windows Server Documentation](https://learn.microsoft.com/en-us/windows-server/)
+- [Active Directory Domain Services Overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
+- [Active Directory Security Best Practices](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/ad-ds-security-best-practices)
+- [Group Policy Overview](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/group-policy-overview)
+- [PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/)
+- [PowerShell Gallery: ADDS Deployment Scripts](https://www.powershellgallery.com/packages/ADDSDeployment/)
+- [Windows Server Lab Guides (Microsoft)](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/step-by-step-active-directory-domain-services)
+- [Windows Server Backup and Recovery](https://learn.microsoft.com/en-us/windows-server/storage/backup/windows-server-backup)
+- [Monitoring Windows Server](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/monitoring-windows-server)
+- [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/)
+- [Microsoft Security Compliance Toolkit](https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines)
+
+For community discussions and troubleshooting:
+- [Microsoft Q&A: Windows Server](https://learn.microsoft.com/en-us/answers/topics/windows-server.html)
+- [r/sysadmin (Reddit)](https://www.reddit.com/r/sysadmin/)
+- [Spiceworks Community](https://community.spiceworks.com/windows-server)
+
+---
+
 ## License
 
 MIT License
