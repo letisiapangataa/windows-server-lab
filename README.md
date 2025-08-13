@@ -42,7 +42,7 @@ This lab environment demonstrates best practices in:
 
 ## Architecture Diagram
 
-*Will add later*
+![Lab Architecture Diagram](architecture/lab-diagram.png)
 
 ---
 
