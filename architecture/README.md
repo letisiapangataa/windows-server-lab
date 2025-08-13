@@ -45,6 +45,4 @@
 - BACKUP01 handles scheduled backups of critical servers.
 - FILE01 and APP01 provide file and application services to users.
 
----
 
-*For a graphical version, use tools like diagrams.net, Visio, or Lucidchart.*
