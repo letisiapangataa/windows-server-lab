@@ -1,8 +1,6 @@
 # ☁️ Windows Server Lab Environment (Letisia Pangata'a)
 
-A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation.
-
-Please visit the following blog post to break down the codebase : https://letisiapangataa.github.io/posts/windows-server-2022-lab/
+A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation. Please visit the following blog post to break down the codebase : https://letisiapangataa.github.io/posts/windows-server-2022-lab/
 
 ---
 
