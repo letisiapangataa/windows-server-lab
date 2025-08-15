@@ -1,5 +1,4 @@
 # ☁️ Windows Server Lab Environment 
-## Letisia Pangata'a
 
 A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation. 
 
@@ -138,3 +137,9 @@ For community discussions and troubleshooting:
 ## License
 
 MIT License
+
+---
+
+## Disclaimer
+
+This project was developed using a combination of publicly available learning resources, reference books, open source projects, and artificial intelligence tools. All efforts have been made to attribute and comply with relevant licenses. Contributions and insights from the broader open source and educational communities are gratefully acknowledged.
