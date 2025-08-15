@@ -1,4 +1,4 @@
-# ☁️ Windows Server Lab Environment 
+# ☁️ Windows Server Lab Environment (ALP)
 
 A Windows Server 2022 lab simulating enterprise-grade Active Directory infrastructure with secure administration and automation. 
 
